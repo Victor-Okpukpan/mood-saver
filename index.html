@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LearnWeb3 First dApp</title>
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"
+      type="application/javascript"
+    />
+  </head>
+
+  <body>
+    <div>
+      <h1>First dApp by The Frontend Oracle!</h1>
+      <p>Here we can set or get your current mood</p>
+      <label for="mood">Input Mood:</label> <br />
+      <input type="text" id="mood" />
+
+      <button id="get">Get Mood</button>
+      <button id="set">Set Mood</button>
+      <p id="showMood"></p>
+    </div>
+
+    <script type="module" src="web3.js"></script>
+  </body>
+</html>
